@@ -1,0 +1,271 @@
+# ========================================
+# PYTHON - ARQUIVOS COMPILADOS E CACHE
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========================================
+# AMBIENTES VIRTUAIS
+# ========================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv.bak/
+
+# ========================================
+# ARQUIVOS DE MÍDIA E ÁUDIO
+# ========================================
+# Arquivos de áudio/vídeo temporários
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.aac
+*.m4a
+*.flac
+*.ogg
+*.webm
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.f4v
+*.f4p
+*.f4a
+*.f4b
+
+# ========================================
+# PASTAS ESPECÍFICAS DO PROJETO
+# ========================================
+# Pasta de downloads (contém vídeos baixados)
+downloads/
+downloads/*/
+
+# Pasta de recortes de áudio
+aud_recort/
+aud_recort/*/
+
+# Pasta temporária do Spleeter
+spleeter_temp/
+spleeter_temp/*/
+
+# Pasta de processamento de áudio
+man_vid/aud_recort/
+man_vid/aud_recort/*/
+
+# ========================================
+# ARQUIVOS ESPECÍFICOS DO PROJETO
+# ========================================
+# Arquivos de áudio processados
+man_vid/base_finalizado.aac
+man_vid/base_finalizado.wav
+man_vid/base.wav
+man_vid/ambiente.wav
+
+# Arquivos de download parcial
+man_vid/output.mp3.part
+man_vid/output.mp3.ytdl
+
+# Arquivos de áudio recortados
+man_vid/recorte_*.wav
+man_vid/recorte_*.mp3
+
+# Arquivos de áudio convertidos
+*_vosk.wav
+*_converted.wav
+
+# ========================================
+# ARQUIVOS DE DADOS TEMPORÁRIOS
+# ========================================
+# JSONs de intervalos e recortes
+*_intervals.json
+*_vosk_intervals.json
+recortes.json
+transcricoes.json
+transcricoes_traduzido.json
+
+# ========================================
+# MODELOS VOSK (MUITO GRANDES)
+# ========================================
+# Modelos de reconhecimento de fala
+vosk-model-small-pt-0.3/
+vosk-model-small-pt-0.3/*
+man_aud/vosk-model-small-pt-0.3/
+man_aud/vosk-model-small-pt-0.3/*
+utils/python/vosk-model-small-pt-0.3/
+utils/python/vosk-model-small-pt-0.3/*
+
+# ========================================
+# ARQUIVOS DE CONFIGURAÇÃO E LOGS
+# ========================================
+# Logs
+*.log
+logs/
+log/
+
+# Configurações de IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+
+# Configurações do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Configurações do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Configurações do Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================================
+# ARQUIVOS DE BACKUP E TEMPORÁRIOS
+# ========================================
+*.bak
+*.backup
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+\#*#
+
+# ========================================
+# ARQUIVOS DE TESTE E COBERTURA
+# ========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ========================================
+# ARQUIVOS DE EMPACOTAMENTO
+# ========================================
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========================================
+# ARQUIVOS DE BANCO DE DADOS
+# ========================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ========================================
+# ARQUIVOS DE CHAVE E CONFIGURAÇÃO
+# ========================================
+# Arquivos de configuração sensíveis
+config.ini
+secrets.json
+.secrets
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ========================================
+# ARQUIVOS DE SISTEMA
+# ========================================
+# Arquivos de sistema do Windows
+System Volume Information/
+$Recycle.Bin/
+*.tmp
+*.temp
+
+# Arquivos de sistema do Linux/Unix
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================================
+# EXCEÇÕES - ARQUIVOS QUE DEVEM SER VERSIONADOS
+# ========================================
+!requirements.txt
+!README.md
+!.github/
+!LICENSE
+!*.py
+!__init__.py
+!*.md
+!*.txt
+!*.yml
+!*.yaml
+!*.cfg
+!*.ini
+!*.conf
+
+# ========================================
+# ARQUIVOS DE DOCUMENTAÇÃO
+# ========================================
+# Manter documentação
+docs/
+*.md
+*.rst
+*.txt
+*.pdf
+
+# ========================================
+# ARQUIVOS DE CONFIGURAÇÃO DO PROJETO
+# ========================================
+# Manter arquivos de configuração importantes
+setup.py
+setup.cfg
+pyproject.toml
+MANIFEST.in
